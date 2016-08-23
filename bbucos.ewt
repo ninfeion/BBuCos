@@ -187,117 +187,333 @@
     <file>
       <name>$PROJ_DIR$\Users\Applications\src\main.c</name>
     </file>
+    <file>
+      <name>$PROJ_DIR$\Users\uCos\uCOS-III\Cfg\os_app_hooks.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\uCos\uCOS-III\Cfg\os_app_hooks.h</name>
+    </file>
+  </group>
+  <group>
+    <name>BSP</name>
+    <group>
+      <name>Headers</name>
+    </group>
+    <group>
+      <name>Source</name>
+    </group>
+    <group>
+      <name>Stm_Std_Library</name>
+      <group>
+        <name>Headers</name>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\misc.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_adc.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_bkp.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_can.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_cec.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_crc.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_dac.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_dbgmcu.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_dma.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_exti.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_flash.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_fsmc.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_gpio.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_i2c.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_iwdg.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_pwr.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_rcc.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_rtc.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_sdio.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_spi.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_tim.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_usart.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\inc\stm32f10x_wwdg.h</name>
+        </file>
+      </group>
+      <group>
+        <name>Source</name>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\misc.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_adc.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_bkp.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_can.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_cec.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_crc.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_dac.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_dbgmcu.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_dma.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_exti.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_flash.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_fsmc.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_gpio.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_i2c.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_iwdg.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_pwr.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_rcc.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_rtc.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_sdio.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_spi.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_tim.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_usart.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_wwdg.c</name>
+        </file>
+      </group>
+    </group>
+    <file>
+      <name>$PROJ_DIR$\stm32f10x_flash.icf</name>
+    </file>
   </group>
   <group>
     <name>Cfg_Libraries</name>
-  </group>
-  <group>
-    <name>Stm_Std_Library</name>
     <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\misc.c</name>
+      <name>$PROJ_DIR$\Users\uCos\uC-CPU\Cfg\cpu_cfg.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_adc.c</name>
+      <name>$PROJ_DIR$\Users\uCos\uC-LIB\Cfg\lib_cfg.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_bkp.c</name>
+      <name>$PROJ_DIR$\Users\uCos\uCOS-III\Cfg\os_cfg.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_can.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_cec.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_crc.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_dac.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_dbgmcu.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_dma.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_exti.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_flash.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_fsmc.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_gpio.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_i2c.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_iwdg.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_pwr.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_rcc.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_rtc.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_sdio.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_spi.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_tim.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_usart.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_wwdg.c</name>
+      <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_type.h</name>
     </file>
   </group>
   <group>
     <name>uC/CPU</name>
     <group>
       <name>Headers</name>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-CPU\ARM-Cortex-M3\IAR\cpu.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-CPU\cpu_core.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-CPU\cpu_def.h</name>
+      </file>
     </group>
     <group>
       <name>Library</name>
     </group>
     <group>
       <name>Source</name>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-CPU\ARM-Cortex-M3\IAR\cpu_a.asm</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-CPU\ARM-Cortex-M3\IAR\cpu_c.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-CPU\cpu_core.c</name>
+      </file>
     </group>
   </group>
   <group>
     <name>uC/LIB</name>
     <group>
       <name>Headers</name>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-LIB\lib_ascii.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-LIB\lib_def.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-LIB\lib_math.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-LIB\lib_mem.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-LIB\lib_str.h</name>
+      </file>
     </group>
     <group>
       <name>Library</name>
     </group>
     <group>
       <name>Source</name>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-LIB\lib_ascii.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-LIB\lib_math.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-LIB\lib_mem.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uC-LIB\lib_str.c</name>
+      </file>
     </group>
   </group>
   <group>
     <name>uC/OS_III</name>
     <group>
       <name>Headers</name>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu.h</name>
+      </file>
     </group>
     <group>
       <name>Library</name>
     </group>
     <group>
       <name>Source</name>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_core.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu_a.asm</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu_c.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_dbg.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_flag.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_int.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_mem.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_msg.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_mutex.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_pend_multi.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_prio.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_q.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_sem.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_stat.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_task.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_tick.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_time.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_tmr.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_var.c</name>
+      </file>
     </group>
+    <file>
+      <name>$PROJ_DIR$\Users\uCos\uCOS-III\Source\os_cfg_app.c</name>
+    </file>
   </group>
 </project>
 

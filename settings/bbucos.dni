@@ -32,10 +32,16 @@ Stop=1
 [Simulator]
 Freq=10000000
 MultiCoreRunAll=1
+[DebugChecksum]
+Checksum=993050322
 [Disassemble mode]
 mode=0
 [Breakpoints2]
 Count=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
 [Aliases]
 Count=0
 SuppressDialog=0

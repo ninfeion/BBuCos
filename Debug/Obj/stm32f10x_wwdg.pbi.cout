@@ -2,13 +2,66 @@
 -std=c99
 -ferror-limit=100
 -I
+C:\Ninfeion_Git\BBuCos\Users\Stm32f10x_StdDrivers\Lib\inc
+-I
+C:\Ninfeion_Git\BBuCos\Users\Applications\inc
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uCOS-III\Source
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uCOS-III\Ports\ARM-Cortex-M3\Generic\IAR
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uCOS-III\Cfg
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-LIB
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-LIB\Cfg
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-LIB\Ports\ARM-Cortex-M3\IAR
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-CPU
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-CPU\ARM-Cortex-M3\IAR
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-CPU\Cfg
+-I
+C:\Ninfeion_Git\BBuCos\Users\Startup
+-I
+C:\Ninfeion_Git\BBuCos\Users\BSP\inc
+-I
 C:\Extra Software\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -I
 C:\Extra Software\IAR Systems\Embedded Workbench 7.0\arm\inc
 -I
 C:\Extra Software\IAR Systems\Embedded Workbench 7.0\arm\inc\c
 -I
+C:\Ninfeion_Git\BBuCos\Users\Stm32f10x_StdDrivers\Lib\inc
+-I
+C:\Ninfeion_Git\BBuCos\Users\Applications\inc
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uCOS-III\Source
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uCOS-III\Ports\ARM-Cortex-M3\Generic\IAR
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uCOS-III\Cfg
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-LIB
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-LIB\Cfg
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-LIB\Ports\ARM-Cortex-M3\IAR
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-CPU
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-CPU\ARM-Cortex-M3\IAR
+-I
+C:\Ninfeion_Git\BBuCos\Users\uCos\uC-CPU\Cfg
+-I
+C:\Ninfeion_Git\BBuCos\Users\Startup
+-I
+C:\Ninfeion_Git\BBuCos\Users\BSP\inc
+-I
 C:\Extra Software\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
+-DUSE_STDPERIPH_DRIVER=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -199,8 +252,8 @@ C:\Extra Software\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593924
--D__DATE__="Aug 22 2016"
--D__TIME__="00:56:50"
+-D__DATE__="Aug 23 2016"
+-D__TIME__="21:29:11"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
