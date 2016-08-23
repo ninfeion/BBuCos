@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>C:\Ninfeion_Git\BBuCos\uCOS\uC-CPU\Ports\IAR\cpu.h</path>
+    <encoding>UTF-8</encoding>
+  </override>
+</userOverrides>
+
+
