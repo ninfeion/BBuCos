@@ -2106,6 +2106,9 @@
     <file>
       <name>$PROJ_DIR$\..\User\main.c</name>
     </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\systeminit.c</name>
+    </file>
   </group>
 </project>
 

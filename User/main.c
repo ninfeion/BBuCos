@@ -1,6 +1,7 @@
 #include "stm32f10x.h"
 #include "os.h"
 #include "bsp.h"
+#include "systeminit.h"
 
 #define  APP_TASK_START_PRIO                        2
 #define  APP_TASK_START_STK_SIZE                    128
@@ -17,6 +18,8 @@ static void AppTaskStart(void *p_arg);
 int main(void)
 {
     OS_ERR err;
+    
+    sysclockInit();
     
     BSP_IntDisAll();
     OSInit(&err);
@@ -50,11 +53,22 @@ int main(void)
 
 static void AppTaskStart(void *p_arg)
 {
+    OS_ERR err;
+    
     BSP_Init();
     CPU_Init();
     
+    ledInit();
+    
     while(1)
     {
-        
+        LedA_on;
+        OSTimeDlyHMSM(0, 0, 0, 200,                     /* Delay task for 200 ms                             */  
+                      OS_OPT_TIME_HMSM_STRICT,  
+                      &err);  
+        LedA_off;
+        OSTimeDlyHMSM(0, 0, 0, 200,                                 
+                      OS_OPT_TIME_HMSM_STRICT,  
+                      &err);         
     }
 }
